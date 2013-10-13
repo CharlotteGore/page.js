@@ -1,4 +1,3 @@
-
 ;(function(){
 
   /**
@@ -227,7 +226,7 @@
    */
 
   Context.prototype.pushState = function(){
-    history.pushState(this.state, this.title, this.canonicalPath);
+    //history.pushState(this.state, this.title, this.canonicalPath);
   };
 
   /**
@@ -237,7 +236,7 @@
    */
 
   Context.prototype.save = function(){
-    history.replaceState(this.state, this.title, this.canonicalPath);
+    //history.replaceState(this.state, this.title, this.canonicalPath);
   };
 
   /**
